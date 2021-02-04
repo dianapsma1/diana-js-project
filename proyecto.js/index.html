@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT PROJECT</title>
+
+    <!---STYLES CSS-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
+    <!---JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!---SLIDER PLUGIN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+<body>
+<div id="selector-theme">
+    <div id="to-green"></div>
+    <div id="to-red"></div>
+    <div id="to-blue"></div>
+</div>
+
+    <section id="global">
+
+        <!-- HEADER-->
+        <header>
+            <div id="logo">
+                <h1>PROYECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">INDEX</a></li>
+                    <li><a href="#">CLOCK</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--SLIDER-->
+        <div id="slider">       
+            <div class="bxslider">
+                <div><img src="img/hojas.jpg" title="Funky roots"></div>
+                <div><img src="img/rojo.jpg" title="The long and winding road"></div>
+                <div><img src="img/cielo.jpg" title="Happy trees"></div>
+              </div>
+        </div>
+
+        <!---MOMENT JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js" integrity="sha512-O2Y8hD83PQtRf8vcr0N+yxwRtErIVaHJ4NOpojzq2yvUmhiJbQIT9OAYu27t+mVk814t+ongBVGx+YGylICVkQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js" integrity="sha512-L6Trpj0Q/FiqDMOD0FQ0dCzE0qYT2TFpxkIpXRSWlyPvaLNkGEMRuXoz6MC5PrtcbXtgDLAAI4VFtPvfYZXEtg==" crossorigin="anonymous"></script>
+
+        <!--SCRIPT-->
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!--Contenido-->
+        <section id="content">
+            <div id="posts">
+                <!--CARGAR POSTS DESDE JSON-->
+            </div>
+                
+                    
+            <aside id="sidebar">
+                <div id="about">
+                    <h4> Quien soy?</h4>
+                    <img src="img/caracol.jpg"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus consequuntur accusantium eum sed laudantium! Eos, possimus facere molestiae placeat quasi nostrum illo quae magnam libero maxime distinctio suscipit reprehenderit quisquam!</p>
+                </div>
+
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                <form>
+                    <label for="name">
+                        Name
+                    </label>
+                    <input type="text" name="name" id="form_name" />
+                   
+                    <label for="email">
+                        Email
+                    </label>
+                    <input type="text" name="email" />
+                        
+                    <label for="password">
+                        Password
+                    </label>
+                    <input type="password" name="password" />
+
+                    <input type="submit" value="Log in" />
+                </form>
+                </div>
+
+            </aside>
+
+            <div class="clearfix"></div>
+
+        </section>
+
+    </section>
+    <footer>
+        PROYECTO 1 CURSO MASTER DE JS &copy;
+
+        <a href="#" class="up">Ir arriba</a>
+    </footer>
+</body>
+</html>
